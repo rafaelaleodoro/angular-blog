@@ -1,0 +1,29 @@
+.imagem-card-grande > img{
+width: 100%;
+min-width: 400px;
+}
+
+
+.container-card-grande{
+margin-left: 20px;
+margin-right: 10px;
+width: 400px;
+height: 500px;
+
+
+display: flex;
+align-items: flex-start;
+flex-direction:column ;
+justify-content: flex-start;
+}
+
+.titulo-card-grande > h1{
+font-size: 25px;
+padding-top: 15px;
+}
+
+.descricao-carde-grande > p{
+color: grey;
+font-weight: bold;
+margin-top: 10px;
+}

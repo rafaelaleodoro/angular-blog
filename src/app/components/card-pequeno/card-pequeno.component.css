@@ -1,0 +1,33 @@
+.container-card-pequeno{
+width: 700px;
+
+margin-bottom: 15px;
+}
+
+.container-card-pequeno-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.container-descricao-card-pequeno > p{
+color: grey;
+font-weight: bold;
+margin-top: 10px;
+}
+
+.container-imagem-card-pequeno > img{
+  width: 50px;
+  height: 150px;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.titulo-card-pequeno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-card-pequeno-separacao{
+margin-top: 10px;
+}
