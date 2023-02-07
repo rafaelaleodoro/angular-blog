@@ -2,7 +2,7 @@
 
 <div class="imagem-card-grande">
 <img
- src="{{fotoCover}}"
+ src= "{{fotoCover}}"
  alt=""
 height="300px"
   srcset="">
@@ -10,11 +10,15 @@ height="300px"
 
 
 <div class="titulo-card-grande">
- <h1><a href="">{{cardTitulo}}</a></h1>
+ <h1><a [routerLink]="['conteudo', Id]">{{cardTitulo}}</a></h1>
 </div>
 
 <div class="descricao-carde-grande">
-<p>{{cardDescricao}} </p>
+<p>
+  <a [routerLink]="['conteudo', Id]">{{cardDescricao}}
+
+</a>
+ </p>
 </div>
 
 </div>

@@ -12,7 +12,8 @@ export class CardGrandeComponent implements OnInit {
   cardTitulo: string = '';
   @Input()
   cardDescricao: string = "";
-  
+  @Input()
+    Id:string = "0"
   constructor() {}
 
   ngOnInit(): void {}

@@ -1,6 +1,7 @@
 .imagem-card-grande > img{
 width: 100%;
 min-width: 400px;
+border-radius: 5px;
 }
 
 
